@@ -1,19 +1,9 @@
-# Grid07 — AI Cognitive Loop
-# Install with: pip install -r requirements.txt
-
-# Core LLM orchestration
-langchain==0.3.25
-langchain-core==0.3.59
-langchain-groq==0.3.2
-langgraph==0.4.1
-
-# Embeddings
-sentence-transformers==3.4.1
-
-# Vector store
-faiss-cpu==1.10.0
-
-# Utilities
-python-dotenv==1.1.0
-numpy==2.2.5
 streamlit>=1.35
+numpy>=1.24
+faiss-cpu>=1.12
+sentence-transformers>=2.2
+langchain>=0.3
+langchain-core>=0.3
+langchain-groq>=0.1
+langgraph>=0.2
+python-dotenv>=1.0
